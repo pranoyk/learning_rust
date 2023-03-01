@@ -2,7 +2,7 @@
 name = "guessing_game"
 version = "0.1.0"
 authors = ["pranoyk <pranoy1998k@gmail.com>"]
-edition = "2018"
+edition = "2021"
 
 [dependencies]
-rand = "0.6.0"
+rand = "0.8.5"
