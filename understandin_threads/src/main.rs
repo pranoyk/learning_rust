@@ -15,5 +15,6 @@ fn main() {
     }
     //we need to call join in case we want to make sure that the spawned thread to finish before the main thread
     //this will force the main thread to wait till the spawned thread is finished
+    //if this join handle is called before the for loop in main then the spawned thread runs before the code return after it
     handle.join().unwrap();
 }
